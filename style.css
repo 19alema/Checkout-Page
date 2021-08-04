@@ -1,0 +1,110 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@600;700;800&family=Rubik:wght@500;600&display=swap');
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+
+img {
+    max-width: 100%;
+}
+
+html {
+    overflow-x: hidden;
+}
+
+body {
+    font-family: Montserrat,
+    'cusrive';
+    font-weight: 500;
+}
+
+.container {
+    max-width: 900px;
+    margin: 0 auto;
+    padding: 0 20px;
+}
+
+.header {
+    display: grid;
+    place-items: center;
+    text-align: center;
+}
+
+h3
+ {
+     font-family: Montserrat;
+     font-weight: 700;
+     padding: .5rem 0;
+     font-size: .9rem
+}
+
+.img img {
+    width: 30vw;
+    margin-top: 3rem;
+    border-radius: 10px;
+}
+
+.social-info {
+    display: flex;
+    margin: 1rem 0;
+}
+
+.para {
+    color:	#C8C8C8;
+    font-size: .8rem;
+}
+
+.single-social {
+    background: #E8E8E8;
+    padding: .8rem .5rem;
+    border-radius: 10px;
+    font-weight: 700;
+}
+
+.single-social:nth-child(2) {
+    margin: 0 .5rem;
+}
+
+.single-social p {
+    text-transform: capitalize;
+    color: #C8C8C8;
+    font-size: .5rem;
+}
+
+h6 {
+    font-size: 1rem;
+    color: #555;
+    font-size: .7rem;
+}
+
+/* Gallery */
+
+.gallery {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 2.5vw;
+    align-items: center;
+    justify-content: center;
+}
+
+
+ .grid-2 {
+    grid-column: span 2;
+ }
+  .grid-3 {
+    grid-column: span 2;
+    grid-row: span ;
+  }
+   .grid-4 {
+       grid-row: span 2;
+   }
+
+   .gallery img {
+       border-radius: 10px;
+   }
+
+
+ 
